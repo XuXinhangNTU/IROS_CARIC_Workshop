@@ -92,8 +92,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 					<h3>IROS 2024 Cooperative Aerial Robots Inspection Challenge (CARIC@IROS24)</h3>
 					<!-- <iframe src="https://ntu-aris.github.io/caric/"></iframe> -->
 
-					<ul>
-						<!-- <li><a href="#1-table-of-contents">1. Table of contents</a></li> -->
+					<!-- <ul>
 						<li><a href="#2-introduction">1. Introduction</a></li>
 						<li><a href="#3-caric-at-iros-2024">2. CARIC at IROS 2024</a>
 						  <ul>
@@ -102,11 +101,22 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 							<li><a href="#33-prize">2.3. Prize</a></li>
 						  </ul>
 						</li>
-					  </ul>
+					  </ul> -->
 					  
 					  <h3 id="2-introduction">1. Introduction</h3>
-					  
-					  <p>&nbsp;&nbsp;&nbsp;&nbsp;Inspection, repair and maintenance is a multi-billion business that is <a href="https://www.fortunebusinessinsights.com/inspection-repair-and-maintenance-market-102983">projected to grow substaintially in the next decade</a>,
+					  <p>&nbsp;&nbsp;&nbsp;&nbsp;Due to their unique mobility, aerial robots are widely used for inspections. 
+						The next breakthrough is expected from Cooperative Aerial Robots Inspection (CARI) systems. 
+						Heterogeneous CARI systems can offer greater efficiency, quality, 
+						and versatility than single-UAV or homogeneous systems. However, 
+						new cooperative strategies are needed to optimally coordinate multiple robots. 
+						To aid this, we introduce the Cooperative Aerial Robots Inspection Challenge (CARIC) Benchmark, 
+						a software stack for simulating and benchmarking multi-UAV inspection systems. 
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;The objective of CARIC is twofold. 
+					  First, it aims to faithfully simulate multi-UAV systems operating in typical real-world inspection missions.
+					   Second, based on this tool, different cooperative inspection schemes can be benchmarked based on a common metric.
+					   The software stack is made public to benefit the community and we would
+					   like to welcome all who are interested to participate in <a href="https://ntu-aris.github.io/caric/">the challenge to be held at IROS 2024</a>.</p>
+					  <!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;Inspection, repair and maintenance is a multi-billion business that is <a href="https://www.fortunebusinessinsights.com/inspection-repair-and-maintenance-market-102983">projected to grow substaintially in the next decade</a>,
 					   with integration of automation and AI being the driving force. At its 
 					  core, the primary goal in an inspection mission is to capture images on 
 					  the surface of some structures at the best possible quality. However, 
@@ -130,28 +140,29 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 					  First, it aims to faithfully simulate multi-UAV systems operating in typical real-world inspection missions. Second, based on this tool, different cooperative inspection schemes can be benchmarked based on a common metric.
 					   The software stack is made public to benefit the community and we would
 					   like to welcome all who are interested to participate in <a href="https://ntu-aris.github.io/caric/">the challenge to be held at IROS 2024</a>.</p>
-					  
+					   -->
 					<div style="text-align:center">
 					<img src="caric_image/IROS 2024 Cooperative Aerial Robots Inspection Challenge (CARIC@IROS24)_files/mbs_trimmed_spedup.gif" alt="facade_inspection" width="100%">
 					</div>
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;CARIC software package can simulate UAV dynamics, physical
+					<!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;CARIC software package can simulate UAV dynamics, physical
 						collisions, camera-FOV-based instance detection, and line-of-sight-only
-						communications</p>
+						communications</p> -->
 					<h3 id="3-caric-at-iros-2024">2. CARIC at IROS 2024</h3>
 
 					<h4 id="31-how-to-participate">2.1. How to participate?</h4>
 
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;The challenge’s procedure is as follows:</p>
+					<!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;The challenge’s procedure is as follows:</p> -->
 
 					<ul>
 					<li>Sign up via the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpaBQUJmdi6etYXH5t0bj7R-TWuU_11-lUlEfKzcUrz9Cdyw/viewform"><strong>Form</strong></a>.</li>
 					<li>Read through the description of CARIC software stack in the <a href="https://ntu-aris.github.io/caric/"><strong>Guideline</strong></a>.</li>
-					<li>Participants develop their CARI schemes based on CARIC. Do notice the ground rules</a>. The implementation can be in python, C++ or docker executable.</li>
+					<!-- <li>Participants develop their CARI schemes based on CARIC. Do notice the ground rules</a>. The implementation can be in python, C++ or docker executable.</li> -->
 					<li>Send your code / executable to Dr. Thien-Minh Nguyen via<a href="mailto:thienminh.npn@ieee.org?cc=xu0021ng@e.ntu.edu.sg"><strong> thienminh.npn@ieee.org and cc xu0021ng@e.ntu.edu.sg</strong></a>.</li>
-					<li>The submitted method will be evaluated on three out of the following five scenarios:</li>
+					<li>If you have any technical inquiry, please raise an <a href="https://github.com/ntu-aris/caric/issues">issue on our github</a>. You may also join our <a href="https://discord.gg/cYMtaEqkub">Discord group</a> and chat with our developers!</li>
+					<!-- <li>The submitted method will be evaluated on three out of the following five scenarios:</li> -->
 					</ul>
 
-					<div style="text-align:center">
+					<!-- <div style="text-align:center">
 						<img src="caric_image/IROS 2024 Cooperative Aerial Robots Inspection Challenge (CARIC@IROS24)_files/iros2024_scenarios.jpg" alt="resolution1" width="70%">
 						<figcaption>The five scenarios for CARIC 2024</figcaption>
 					</div>
@@ -159,16 +170,14 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 
 
 
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red"> The scale and position of the building will not be the same as in the <a href="https://github.com/ntu-aris/caric_mission/tree/master/models">released models</a>. Only one big bounding box will be defined in the test scenarios.</span></p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red"> The scale and position of the building will not be the same as in the <a href="https://github.com/ntu-aris/caric_mission/tree/master/models">released models</a>. Only one big bounding box will be defined in the test scenarios.</span></p> -->
 
-					<ul>
-					<li>The methods will be ranked based on the **total mission scores obtained in all three chosen scenarios.
-					<!-- * (Optional) A poster session will be arranged for the benchmark. If you wish to attend CDC 2023 and present your method in person, please submit a 1-2 page write-up (title and abstract) to [CSS Paperplaza](https://css.paperplaza.net/conferences/scripts/start.pl) (under **Submit a contribution to CDC 2023 > Benchmark Challenge > Submit**). Acceptance letter will be issued to the participants for registering and attending the conference. The deadline for registration is **1st September 2023**. --></li>
+					<!-- <ul>
 					<li>If you have any technical inquiry, please raise an <a href="https://github.com/ntu-aris/caric/issues">issue on our github</a>. You may also join our <a href="https://discord.gg/cYMtaEqkub">Discord group</a> and chat with our developers!</li>
-					</ul>
+					</ul> -->
 
-					<h4 id="32-important-dates">2.2. Important dates</h4>
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;(All dates and time are in GMT+4)</p>
+					<h4 id="32-important-dates">2.2. Important dates (All dates and time are in GMT+4)</h4>
+					<!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;(All dates and time are in GMT+4)</p> -->
 					<ul>
 					<li>Last day to register for the challenge <strong>24th September 2024</strong>.</li>
 					<li>Last day to update your code <strong>29th September 2024</strong>.</li>
