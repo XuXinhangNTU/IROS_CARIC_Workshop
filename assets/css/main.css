@@ -4720,13 +4720,19 @@ input, select, textarea {
 		padding: 10px; /* 内边距 */
 		text-align: center; /* 文字居中对齐 */
 	}
+	.image-container3 {
+		flex: 1; /* 每个容器占据相同的空间 */
+		max-width: 50%; /* 每个容器的最大宽度 */
+		padding: 10px; /* 内边距 */
+		text-align: center; /* 文字居中对齐 */
+	}
 
 	.image-container2 img {
 		width: 100%; /* 图片宽度占满容器 */
 		height: auto; /* 图片高度自动调整 */
 	}
 	.image-container3 img {
-		width: 100%; /* 图片宽度占满容器 */
+		width: 75%; /* 图片宽度占满容器 */
 		height: auto; /* 图片高度自动调整 */
 	}
 
