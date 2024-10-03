@@ -4943,13 +4943,18 @@ input, select, textarea {
 		padding: 10px 20px;
 		border-radius: 10px;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		justify-content: center; /* Center items horizontally */
+		align-items: center;     /* Center items vertically */
 		transition: background-color 0.3s ease;
 	}
 	
 	.leaderboard li:hover {
 		background-color: #e0e0e0;
+	}
+	
+	.leaderboard li span {
+		flex: 1; /* Distribute space evenly among columns */
+		text-align: center; /* Center text in each column */
 	}
 	
 	.rank {
