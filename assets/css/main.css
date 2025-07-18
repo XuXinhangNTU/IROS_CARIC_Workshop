@@ -412,12 +412,13 @@ input, select, textarea {
 			width: 50%;
 		}
 
+
 		.row > .off-6 {
 			margin-left: 50%;
 		}
 
 		.row > .col-7 {
-			width: 58.33333%;
+			width:33.33333%;
 		}
 
 		.row > .off-7 {
@@ -4699,7 +4700,7 @@ input, select, textarea {
 
 	.image-container {
 		flex: 1; /* 每个容器占据相同的空间 */
-		max-width: 50%; /* 每个容器的最大宽度 */
+		max-width: 100%; /* 每个容器的最大宽度 */
 		padding: 10px; /* 内边距 */
 		text-align: center; /* 文字居中对齐 */
 	}
